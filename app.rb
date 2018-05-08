@@ -19,6 +19,7 @@ class App < Sinatra::Base
 		day = today.strftime("%A")
 		month = today.strftime("%B")
 		date = today.strftime("%d")
+		year = today.strftime("%y")
 		binding.pry
 		erb :date
 	end
