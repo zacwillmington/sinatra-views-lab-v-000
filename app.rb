@@ -15,6 +15,7 @@ class App < Sinatra::Base
 	end
 
     get '/date' do
+		today = Date.now
 		erb :date
 	end
 
