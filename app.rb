@@ -15,7 +15,7 @@ class App < Sinatra::Base
 	end
 
     get '/date' do
-		today = Date.new
+		today = DateTime.new
 		binding.pry
 		erb :date
 	end
